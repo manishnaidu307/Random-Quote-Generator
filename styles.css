@@ -1,0 +1,48 @@
+body{
+    background-color: #06bcc1 !important;
+}
+.container{
+    height: 90vh;
+    width: 95%;
+    display: flex;
+    text-align: center;
+    
+}
+
+.quotes p, .quotes h3{
+    font-size: 1.5rem;
+}
+
+.quotes{
+    padding: 0 50px;
+    color: gray;
+    border: 10px solid orange;
+    height: 400px;
+    width: 900px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.btn{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media(max-width: 480px){
+    .quotes p, .quotes h3{
+        font-size: 1rem;
+    }
+}
